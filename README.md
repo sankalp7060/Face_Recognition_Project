@@ -59,4 +59,64 @@ A secure attendance tracking system using facial recognition with network restri
   pip install pillow pandas bcrypt python-dotenv
   pip install pillow pandas bcrypt python-dotenv
   ```
-  
+## 🔐 Authentication
+
+**Secure Login System:**
+
+- User credentials stored using **bcrypt** hashing  
+- **JWT** (JSON Web Token) authentication  
+- Session management  
+
+### Authentication Routes
+
+| Route       | Method | Description         |
+|-------------|--------|---------------------|
+| `/login`    | POST   | User login          |
+| `/register` | POST   | New user registration |
+
+---
+
+## 👥 User Management
+
+### Admin Functions
+
+- Add/remove users  
+- Reset passwords  
+- View access logs  
+
+### User Types
+
+- **Admin** – Full access  
+- **Staff** – Attendance marking only  
+- **Viewer** – Reports only  
+
+---
+
+## 📸 Face Recognition Flow
+
+### 1. Face Detection
+
+- Uses **Haar Cascade** classifier  
+- Minimum **120x120** pixel detection  
+- Capture **30 samples per student**  
+
+### 2. Model Training
+
+- Uses **LBPH** algorithm  
+- Configurable **confidence threshold**
+
+### 3. Attendance Marking
+
+- 3-second **face verification** period  
+- **Network location** validation  
+- Attendance **exported as CSV**
+
+---
+
+## 🚀 Usage
+
+### Launch the Application
+
+```bash
+python main.py
+
