@@ -119,4 +119,19 @@ A secure attendance tracking system using facial recognition with network restri
 
 ```bash
 python main.py
+```
 
+## 📬 Contact
+
+For any inquiries or feedback, feel free to reach out:
+
+- **Email:** [sankalpagarwal8057@example.com](mailto:sankalpagarwal8057@example.com)  
+- **LinkedIn:** [https://www.linkedin.com/in/sankalp-agarwal-2b61ab253/]((https://www.linkedin.com/in/sankalp-agarwal-2b61ab253/))
+
+---
+
+## 🙏 Acknowledgements
+
+- [OpenCV]([https://reactjs.org/](https://opencv.org/))
+- [Python](https://www.python.org/)
+- [Tkinter](https://docs.python.org/3/library/tkinter.html)
