@@ -132,6 +132,6 @@ For any inquiries or feedback, feel free to reach out:
 
 ## 🙏 Acknowledgements
 
-- [OpenCV]([https://reactjs.org/](https://opencv.org/))
+- [OpenCV](https://opencv.org/)
 - [Python](https://www.python.org/)
 - [Tkinter](https://docs.python.org/3/library/tkinter.html)
